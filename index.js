@@ -84,7 +84,6 @@ app.put('/update/:id', async function(req,res){
         if(record){
             res.json({
                 message: "Record is updated",
-                result
             });
         }else{
             res.json({
@@ -107,7 +106,6 @@ app.delete('/delete/:collection/:id', async function(req,res){
         if(record){
             res.json({
                 message: "Record is deleted",
-                result
             });
         }else{
             res.json({
